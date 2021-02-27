@@ -14,7 +14,7 @@ body {
 }
 
 ul {
-    background-color: #222;
+    line-height: 2.5;
     list-style-type: none;
 
 }
@@ -24,6 +24,10 @@ a {
     color: #333;
 }
 
+h1 {
+    
+}
+
 #header {
     background-color: purple;
     color: #fff;
@@ -31,7 +35,7 @@ a {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1400px;
     margin: 0 auto;
     overflow: auto;
     padding: 0 40px;
@@ -62,18 +66,31 @@ a {
     display: flex;
     justify-content: center;
     padding: 15px;
+    font-size: 65px;
 }
 
 
-.section-content p {
+.section-content {
     margin-top: 0px;
-    justify-content: center;
-    @media (max-width: 500px)
-
+    padding: 50px;
+    
 }
 
 .section {
-    display: flex;
-    align-items: center;
+    max-width: 1400px;
+    text-align: center;
+    margin: auto;
+    overflow: auto;
+    padding: 40px;
+    justify-content: center;
     }
 
+#form {
+    max-width: 1400px;
+    text-align: center;
+    text-size: 30px;
+    margin: auto;
+    overflow: auto;
+    padding: 40px;
+    justify-content: center;
+}
