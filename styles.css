@@ -7,12 +7,14 @@
 }
 
 body {
+    background-color: #222;
     font-family: 'Roboto Slab', serif;
-    Color: #333;
+    Color: #fff;
     line-height: 1.4;
 }
 
 ul {
+    background-color: #222;
     list-style-type: none;
 
 }
@@ -56,3 +58,22 @@ a {
     padding: 10px;
     margin: 0 10px;
 }
+.jail-heading {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+.section-content p {
+    margin-top: 0px;
+    justify-content: center;
+    @media (max-width: 500px)
+
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    }
+
