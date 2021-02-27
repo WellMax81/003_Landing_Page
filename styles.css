@@ -29,12 +29,17 @@ h1 {
 }
 
 #header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     background-color: purple;
     color: #fff;
     height: 80;
 }
 
 .container {
+    
     max-width: 1400px;
     margin: 0 auto;
     overflow: auto;
@@ -54,6 +59,10 @@ h1 {
 }
 
 #nav-bar {
+    position: fixed;
+    top: 0;
+    margin-top; auto;
+    overflow: hidden;
     justify-content: space-between;
 }
 
@@ -67,6 +76,7 @@ h1 {
     justify-content: center;
     padding: 15px;
     font-size: 65px;
+    text-shadow: 6px 3px 10px teal;
 }
 
 
@@ -88,9 +98,21 @@ h1 {
 #form {
     max-width: 1400px;
     text-align: center;
-    text-size: 30px;
+    font-size: 30px;
     margin: auto;
     overflow: auto;
     padding: 40px;
     justify-content: center;
 }
+
+@media screen and (min-width: 400px) {
+    body {
+      background-color: rgb(12, 14, 12);
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: rgb(33, 2, 41);
+    }
+  }
